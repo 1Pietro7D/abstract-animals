@@ -1,6 +1,6 @@
 package factory.feb01;
 
-public class Cane extends Animale {
+public class Cane extends Animale implements Nuotare {
 
 	@Override
 	public void verso() {
@@ -12,6 +12,12 @@ public class Cane extends Animale {
 	public void mangia() {
 		// TODO Auto-generated method stub
 		System.out.println("di tutto");
+	}
+
+	@Override
+	public void swim() {
+		// TODO Auto-generated method stub
+		System.out.println("so nuotare");
 	}
 
 }
